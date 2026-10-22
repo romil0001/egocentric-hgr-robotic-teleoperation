@@ -1,0 +1,32 @@
+# Secrets / local config
+secrets.h
+**/secrets.h
+.env
+*.local.yaml
+config.yaml
+!config.example.yaml
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# IDE / OS
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Build / firmware artifacts
+*.bin
+*.elf
+.pio/
+.pioenvs/
+
+# Misc
+*.log
+.cache/

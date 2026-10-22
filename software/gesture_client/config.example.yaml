@@ -1,0 +1,19 @@
+# Copy to config.yaml and edit for your LAN setup.
+robot:
+  host: "192.168.0.101"   # ESP32 IP on the shared Wi-Fi network
+  port: 8266
+
+camera:
+  index: 0
+  width: 1280
+  height: 720
+
+gesture:
+  # Require N consecutive identical classifications before UDP send (thesis "robust" mode).
+  confirm_frames: 5
+  # Extra payload fields kept for protocol compatibility with the ESP32 DataParser.
+  payload_suffix: "100,0,0,0"
+
+display:
+  window_name: "Hand Tracking"
+  mirror: true

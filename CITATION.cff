@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+message: "If you use this software or cite this work, please use the following metadata."
+title: "Real-Time Egocentric Hand Gesture Recognition for Wireless Multi-DOF Robotic Teleoperation"
+authors:
+  - family-names: Modi
+    given-names: Romil Chetankumar
+    orcid: ""
+type: software
+abstract: >-
+  Open-source companion repository for an MEng dissertation on wearable
+  (egocentric) MediaPipe hand-gesture recognition with UDP teleoperation of an
+  ESP32 + PCA9685 multi-servo robotic arm.
+keywords:
+  - hand gesture recognition
+  - MediaPipe
+  - egocentric vision
+  - robotic teleoperation
+  - ESP32
+  - UDP
+  - human-robot interaction
+license: MIT
+repository-code: "https://github.com/romil0001/egocentric-hgr-robotic-teleoperation"
+version: "1.0.0"
+date-released: "2024-04-15"
+references:
+  - type: thesis
+    title: "Gesture-Activated Smart Glasses for Machinery Interaction and Control"
+    authors:
+      - family-names: Modi
+        given-names: Romil Chetankumar
+    institution:
+      name: Anglia Ruskin University
+    thesis-type: "MEng dissertation"
+    year: 2024
+    month: 4
